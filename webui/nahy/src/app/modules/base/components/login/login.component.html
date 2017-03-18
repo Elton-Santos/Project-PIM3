@@ -1,0 +1,23 @@
+<div class="b-app-login">
+  <div class="container">
+    <div class="row">
+      <h2>Login</h2>
+    </div>
+    <div class="b-login-app-form">
+      <form name="form" [formGroup]="formLogin">
+        <div>
+          <input type="email" placeholder="Username (demo)" name="username" formControlName="username" />
+        </div>
+        <div>
+          <input type="password" placeholder="Password (demo)" name="password" formControlName="password" />
+        </div>
+        <div>
+          <button type="button" class="btn btn-primary" (click)="login()">Login</button>
+          <alert type="danger" *ngIf="errMsg">
+            <strong>{{errTitle}}</strong> {{errMsg}}
+          </alert>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
