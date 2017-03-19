@@ -12,18 +12,30 @@ export class LoginComponent implements OnInit {
   errTitle: string = '';
   errMsg: string = '';
   usuario: Usuario;
+  userName: string;
+  password: string;
   formLogin: FormGroup;
 
   constructor() { }
 
   ngOnInit() {
     this.formLogin = new FormGroup({
-            username: new FormControl(),
-            password: new FormControl(),
-        });
+      userName: new FormControl(),
+      password: new FormControl()
+    });
   }
   login() {
-    this.errMsg = 'Usuário e/ou Senha inválidos!';
-    this.errTitle= 'Falha!';
+
+    let login = this.formLogin.value
+    let userName: typeof login.userName = login.userName;
+    let password: typeof login.password = login.password;
+
+    if (userName == "davi.piala@gmail.com") {
+      alert("teste");
+    }
+    else {
+      this.errMsg = 'Usuário e/ou Senha inválidos!';
+      this.errTitle = 'Falha!';
+    }
   }
 }
