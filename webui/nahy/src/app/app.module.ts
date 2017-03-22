@@ -9,12 +9,13 @@ import { AlertModule } from 'ng2-bootstrap/alert';
 import { LoginComponent } from './modules/base/components/login/login.component';
 import { HomeComponent } from './modules/home/components/home/home.component';
 import { HeaderComponent } from './modules/home/components/header/header.component';
+import { VagaComponent } from './modules/cadastro-mestre/components/vaga/vaga.component';
 
 
 @NgModule({
   declarations: [
     AppComponent
-    , LoginComponent, HomeComponent, HeaderComponent
+    , LoginComponent, HomeComponent, HeaderComponent, VagaComponent
   ],
   imports: [
     BrowserModule,

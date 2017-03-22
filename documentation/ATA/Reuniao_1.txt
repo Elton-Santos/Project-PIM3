@@ -1,0 +1,11 @@
+Discutimos sobre a criação do módulo de cadastro mestre:
+
+
+ Apartamento/Loja/Sala
+--Espaço
+
+ Vaga
+--Vaga
+
+Sala de jogos/churrasqueira/piscina,playground/sala de ginastica
+ --Area de Lazer
