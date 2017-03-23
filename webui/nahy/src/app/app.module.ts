@@ -10,12 +10,12 @@ import { LoginComponent } from './modules/base/components/login/login.component'
 import { HomeComponent } from './modules/home/components/home/home.component';
 import { HeaderComponent } from './modules/home/components/header/header.component';
 import { VagaComponent } from './modules/cadastro-mestre/components/vaga/vaga.component';
-
+import { AreaLazerComponent } from './modules/cadastro-mestre/components/area-lazer/area-lazer.component';
 
 @NgModule({
   declarations: [
     AppComponent
-    , LoginComponent, HomeComponent, HeaderComponent, VagaComponent
+    , LoginComponent, HomeComponent, HeaderComponent, VagaComponent, AreaLazerComponent
   ],
   imports: [
     BrowserModule,
