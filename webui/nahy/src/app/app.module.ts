@@ -11,11 +11,13 @@ import { HomeComponent } from './modules/home/components/home/home.component';
 import { HeaderComponent } from './modules/home/components/header/header.component';
 import { VagaComponent } from './modules/cadastro-mestre/components/vaga/vaga.component';
 import { AreaLazerComponent } from './modules/cadastro-mestre/components/area-lazer/area-lazer.component';
+import { FuncionarioComponent } from './modules/quadro-colaboradores/components/funcionario/funcionario.component';
+
 
 @NgModule({
   declarations: [
     AppComponent
-    , LoginComponent, HomeComponent, HeaderComponent, VagaComponent, AreaLazerComponent
+    , LoginComponent, HomeComponent, HeaderComponent, VagaComponent, AreaLazerComponent, FuncionarioComponent
   ],
   imports: [
     BrowserModule,

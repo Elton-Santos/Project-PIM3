@@ -12,4 +12,4 @@ export class AreaLazerComponent implements OnInit {
   ngOnInit() {
   }
 
-}
+} 
